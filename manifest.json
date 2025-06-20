@@ -9,6 +9,22 @@
   "description": "App de palpites e controle de banca para apostas esportivas.",
   "orientation": "portrait",
   "id": "/",
+  "dir": "ltr",
+  "lang": "pt-BR",
+  "iarc_rating_id": "PWA123456", 
+  "categories": ["sports", "finance", "productivity"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "540x960",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "540x960",
+      "type": "image/png"
+    }
+  ],
   "icons": [
     {
       "src": "icon.png",
