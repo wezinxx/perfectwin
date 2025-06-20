@@ -26,7 +26,6 @@
 {
   "display_override": ["window-controls-overlay", "standalone"]
 }
-edge_side_panel
 {
   "name": "Meu App",
   "short_name": "MeuApp",
