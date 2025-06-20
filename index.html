@@ -4,10 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PerfectWin</title>
-  <link rel="manifest" href="manifest.json">
+
+  <!-- Manifesto e icones -->
+  <link rel="manifest" href="/perfectwin/manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="/perfectwin/icon.png">
+  <link rel="apple-touch-icon" href="/perfectwin/icon512.png">
+
+  <!-- Cores do navegador -->
+  <meta name="theme-color" content="#ffffff">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 </head>
 <body>
   <h1>Bem-vindo ao PerfectWin</h1>
   <p>Seu sistema de apostas inteligente está quase pronto!</p>
+
+  <!-- Registro do Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/perfectwin/service-worker.js')
+        .then(reg => console.log('Service Worker registrado ✔️'))
+        .catch(err => console.error('Erro ao registrar o Service Worker:', err));
+    }
+  </script>
 </body>
 </html>
