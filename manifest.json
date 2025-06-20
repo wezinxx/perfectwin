@@ -30,7 +30,9 @@
     {
       "action": "/",
       "accept": {
-        "application/json": [".json"]
+        "application/json": [".json"],
+        "text/csv": [".csv"],
+        "text/plain": [".txt"]
       }
     }
   ],
