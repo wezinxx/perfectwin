@@ -15,7 +15,7 @@
 }
 {
   "name": "PerfectWin",
-  "short_name": "PWinn",
+  "short_name": "PWin",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
